@@ -30,7 +30,7 @@ import {
   IoLogoYoutube,
   IoMail,
 } from "react-icons/io5";
-
+import { FaTelegramPlane } from "react-icons/fa"
 const Social = ({ source, className }) => {
   const {
     facebook,
@@ -63,9 +63,22 @@ const Social = ({ source, className }) => {
     address,
     skype,
     website,
+    telegram,
   } = source;
   return (
     <ul className={className}>
+      {telegram && (
+        <li className="inline-block">
+          <a
+            aria-label="telegram"
+            href={telegram}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <FaTelegramPlane />
+          </a>
+        </li>
+      )}
       {facebook && (
         <li className="inline-block">
           <a

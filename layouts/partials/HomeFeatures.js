@@ -1,9 +1,12 @@
+"use client";
 import { markdownify } from "@lib/utils/textConverter";
 import Image from "next/image";
+import useScrollToHash from "../components/useScrollToHash";
 
 const HomeFeatures = ({ feature }) => {
+  useScrollToHash();
   return (
-    <section className="section bg-theme-light">
+    <section id="possibilities" className="section bg-theme-light">
       <div className="container">
         <div className="text-center">
           <h2>{markdownify(feature.title)}</h2>

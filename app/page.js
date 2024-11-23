@@ -5,7 +5,6 @@ import SeoMeta from "@layouts/SeoMeta";
 import HomeBanner from "@layouts/partials/HomeBanner";
 import HomeFeatures from "@layouts/partials/HomeFeatures";
 import Services from "@layouts/partials/Services";
-import Workflow from "@layouts/partials/Workflow";
 import { getListPage } from "../lib/contentParser";
 
 const Home = async () => {
@@ -22,7 +21,7 @@ const Home = async () => {
       <HomeBanner banner={banner} />
 
       {/* Features */}
-      <HomeFeatures feature={feature} />
+      <HomeFeatures feature={feature}/>
 
       {/* services */}
       <Services services={services} />

@@ -5,6 +5,10 @@
       "url": "/"
     },
     {
+      "name": "Возможности",
+      "url": "/#possibilities"
+    },
+    {
       "name": "Контакты",
       "url": "/contact"
     }
@@ -16,6 +20,15 @@
         {
           "text": "AralHub",
           "url": "/contact"
+        }
+      ]
+    },
+    {
+      "name": "Телеграм",
+      "menu": [
+        {
+          "text": "Телеграм: @aralhub",
+          "url": "https://t.me/aralhub"
         }
       ]
     },
