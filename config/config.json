@@ -2,8 +2,8 @@
   "site": {
     "title": "CControl",
     "base_url": "/",
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
+    "favicon": "/image/favicon.png",
+    "logo": "/image/logo.png",
     "logo_width": "100",
     "logo_height": "48",
     "logo_text": "logo"

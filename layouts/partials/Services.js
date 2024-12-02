@@ -21,16 +21,16 @@ const Services = ({ services }) => {
               <Swiper
                 modules={[Autoplay, Pagination]}
                 pagination={
-                  service.images.length > 1 ? { clickable: true } : false
+                  service.image.length > 1 ? { clickable: true } : false
                 }
                 autoplay={{
                   delay: 5000,
                   disableOnInteraction: false,
                 }}
-                init={service?.images > 1 ? false : true}
+                init={service?.image > 1 ? false : true}
               >
                 {/* Slides */}
-                {service?.images.map((slide, index) => (
+                {service?.image.map((slide, index) => (
                   <SwiperSlide key={index}>
                     <Image src={slide} alt="" width={600} height={500} />
                   </SwiperSlide>
@@ -54,7 +54,7 @@ const Services = ({ services }) => {
                   {service?.button.label}
                   <Image
                     className="ml-1"
-                    src="/images/arrow-right.svg"
+                    src="/image/arrow-right.svg"
                     width={18}
                     height={14}
                     alt="arrow"
