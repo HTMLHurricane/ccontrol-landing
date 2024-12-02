@@ -37,6 +37,7 @@ services:
       - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
       - "/images/service-slide-3.png"
+      - "/images/service-slide-4.png"
     button:
       enable: true
       label: Демо
@@ -46,6 +47,9 @@ services:
     content: "Удобный интерфейс для создания филиалов, назначения сотрудников и их ролей. Управляйте персоналом в разных местах с легкостью."
     images:
       - "/images/service-slide-1.png"
+      - "/images/service-slide-2.png"
+      - "/images/service-slide-3.png"
+      - "/images/service-slide-4.png"
     button:
       enable: true
       label: Демо
