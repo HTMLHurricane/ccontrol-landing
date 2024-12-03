@@ -1,6 +1,5 @@
 import { markdownify } from "@lib/utils/textConverter";
 import MDXContent from "app/helper/MDXContent";
-import Image from "next/image";
 import SeoMeta from "./SeoMeta";
 
 const PostSingle = ({ frontmatter, content }) => {
@@ -15,13 +14,11 @@ const PostSingle = ({ frontmatter, content }) => {
           <div className="row">
             <article className="col-12 mx-auto text-center md:col-8">
               {image && (
-                <Image
+                <img
                   src={image}
                   height="500"
                   width="1000"
                   alt={title}
-                  priority={true}
-                  layout="responsive"
                   className="rounded-lg"
                 />
               )}

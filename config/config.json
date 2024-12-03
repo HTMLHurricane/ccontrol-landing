@@ -11,8 +11,7 @@
 
   "settings": {
     "pagination": 4,
-    "summary_length": 200,
-    "blog_folder": "blogs"
+    "summary_length": 200
   },
 
   "nav_button": {

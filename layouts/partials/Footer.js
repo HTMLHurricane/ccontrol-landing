@@ -3,7 +3,6 @@ import config from "@config/config.json";
 import menu from "@config/menu.json";
 import social from "@config/social.json";
 import { markdownify } from "@lib/utils/textConverter";
-import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -33,7 +32,7 @@ const Footer = () => {
           {/* social icons */}
           <div className="md-12 sm:col-6 lg:col-3">
             <Link href="/" aria-label="Bigspring">
-              <Image
+              <img
                 src={config.site.logo}
                 width={config.site.logo_width}
                 height={config.site.logo_height}

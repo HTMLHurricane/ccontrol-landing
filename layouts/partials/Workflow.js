@@ -1,5 +1,4 @@
 import { markdownify } from "@lib/utils/textConverter";
-import Image from "next/image";
 
 const Workflow = ({ workflow }) => {
   return (
@@ -12,7 +11,7 @@ const Workflow = ({ workflow }) => {
         )}
         {markdownify(workflow.description, "p", "mt-3")}
       </div>
-      <Image
+      <img
         src={workflow.image}
         alt="workflow image"
         width={1920}

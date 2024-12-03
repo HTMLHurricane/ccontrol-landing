@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -32,7 +31,7 @@ const Services = ({ services }) => {
                 {/* Slides */}
                 {service?.image.map((slide, index) => (
                   <SwiperSlide key={index}>
-                    <Image src={slide} alt="" width={600} height={500} />
+                    <img src={slide} alt="" width={600} height={500} />
                   </SwiperSlide>
                 ))}
               </Swiper>
@@ -52,7 +51,7 @@ const Services = ({ services }) => {
                   className="cta-link inline-flex items-center text-primary"
                 >
                   {service?.button.label}
-                  <Image
+                  <img
                     className="ml-1"
                     src="/images/arrow-right.svg"
                     width={18}

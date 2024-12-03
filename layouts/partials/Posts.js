@@ -1,6 +1,5 @@
 import config from "@config/config.json";
 import { plainify } from "@lib/utils/textConverter";
-import Image from "next/image";
 import Link from "next/link";
 
 const Posts = ({ posts }) => {
@@ -11,13 +10,12 @@ const Posts = ({ posts }) => {
         <div className="row items-center">
           <div className="col-12 md:col-6">
             {posts[0].frontmatter.image && (
-              <Image
+              <img
                 className="h-auto w-full rounded-lg"
                 src={posts[0].frontmatter.image}
                 alt={posts[0].frontmatter.title}
                 width={540}
                 height={227}
-                priority={true}
               />
             )}
           </div>
@@ -49,7 +47,7 @@ const Posts = ({ posts }) => {
       {posts.slice(1).map((post, i) => (
         <div key={`key-${i}`} className="col-12 mb-8 sm:col-6 lg:col-4">
           {post.frontmatter.image && (
-            <Image
+            <img
               className="rounded-lg"
               src={post.frontmatter.image}
               alt={post.frontmatter.title}

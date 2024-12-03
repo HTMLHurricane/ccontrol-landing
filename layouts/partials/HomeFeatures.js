@@ -1,6 +1,5 @@
 "use client";
 import { markdownify } from "@lib/utils/textConverter";
-import Image from "next/image";
 import useScrollToHash from "../components/useScrollToHash";
 
 const HomeFeatures = ({ feature }) => {
@@ -18,7 +17,7 @@ const HomeFeatures = ({ feature }) => {
               key={`feature-${i}`}
             >
               {item.icon && (
-                <Image
+                <img
                   className="mx-auto"
                   src={item.icon}
                   width={30}

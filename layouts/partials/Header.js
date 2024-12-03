@@ -21,7 +21,7 @@ const Header = () => {
   const { enable, label, link } = config.nav_button;
 
   return (
-    <header className="header fixed w-full">
+    <header className="header fixed w-full z-50">
       <nav className="navbar container">
         {/* logo */}
         <div className="order-0">
