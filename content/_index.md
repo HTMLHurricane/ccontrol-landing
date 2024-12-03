@@ -2,7 +2,7 @@
 banner:
   title: Управление сотрудниками и анализ статистики клиентов для вашего бизнеса
   content: Наш проект помогает бизнесам автоматизировать процесс управления филиалами, сотрудниками и анализировать статистику клиентов для принятия обоснованных решений. Ускорьте рост и оптимизируйте операционные процессы.
-  image: /image/banner-art.svg
+  image: /images/banner-art.svg
   button:
     label: "Contact Us"
     link: "/contact"
@@ -12,32 +12,32 @@ feature:
   title: Возможности нашего инструмента
   features:
     - name: "Управление персоналом"
-      icon: "/image/oop.svg"
+      icon: "/images/oop.svg"
       content: "Удобное создание и управление филиалами, ролями и графиками сотрудников."
     - name: "Автоматический мониторинг"
-      icon: "/image/speedometer.svg"
+      icon: "/images/speedometer.svg"
       content: "Фото и время прихода/ухода сотрудников для контроля рабочего времени."
     - name: "Аналитика клиентов"
-      icon: "/image/love.svg"
+      icon: "/images/love.svg"
       content: "Подробные отчеты по типам клиентов (мужчины, женщины, возраст, новые/постоянные)."
     - name: "Пиковое время"
-      icon: "/image/user-clock.svg"
+      icon: "/images/user-clock.svg"
       content: "Узнайте, когда ваши клиенты наиболее активны, чтобы оптимизировать работу."
     - name: "Рабочие графики"
-      icon: "/image/workgraph.svg"
+      icon: "/images/workgraph.svg"
       content: "Возможность гибко настраивать рабочий график"
     - name: "Филиалы"
-      icon: "/image/branch.svg"
+      icon: "/images/branch.svg"
       content: "Создавать любое количество филиалов и эффективно управлять их работой."
 # services
 services:
   - title: "Статистика и аналитика"
     content: "Графики и таблицы с приходом и уходом сотрудников, а также статистика по клиентам (пол, возраст, новый/постоянный клиент) для глубокого анализа."
     image:
-      - "/image/clienttype.jpg"
-      - "/image/age.jpg"
-      - "/image/peakhours.jpg"
-      - "/image/pol.jpg"
+      - "/images/clienttype.jpg"
+      - "/images/age.jpg"
+      - "/images/peakhours.jpg"
+      - "/images/pol.jpg"
     button:
       enable: true
       label: Демо
@@ -46,9 +46,9 @@ services:
   - title: "Филиалы и сотрудники"
     content: "Удобный интерфейс для создания филиалов, назначения сотрудников и их ролей. Управляйте персоналом в разных местах с легкостью."
     image:
-      - "/image/employee.jpg"
-      - "/image/role.jpg"
-      - "/image/branch.jpg"
+      - "/images/employee.jpg"
+      - "/images/role.jpg"
+      - "/images/branch.jpg"
     button:
       enable: true
       label: Демо
@@ -86,7 +86,7 @@ services:
 call_to_action:
   title: Готовы оптимизировать свой бизнес?
   content: Попробуйте наш инструмент бесплатно и начните улучшать управление филиалами, сотрудниками и статистикой уже сегодня!
-  image: "/image/cta.svg"
+  image: "/images/cta.svg"
   button:
     enable: true
     label: "Получите демо доступ"
