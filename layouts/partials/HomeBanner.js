@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const HomeBanner = ({ banner }) => {
   return (
-    <section className="section pb-[50px]">
+    <section className="section pb-[50px] pt-36">
       <div className="container">
         <div className="row text-center">
           <div className="mx-auto lg:col-10">
