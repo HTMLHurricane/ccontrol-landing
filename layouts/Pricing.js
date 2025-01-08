@@ -5,6 +5,7 @@ function Pricing({ data }) {
   const {
     frontmatter: { title, plans, call_to_action },
   } = data;
+
   return (
     <>
       <section className="section pb-0">

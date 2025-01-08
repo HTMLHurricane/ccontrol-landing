@@ -3,11 +3,18 @@ import Link from "next/link";
 
 const HomeBanner = ({ banner }) => {
   return (
-    <section className="section pb-[50px] pt-36">
+    <section className="section pb-[50px] pt-28">
       <div className="container">
         <div className="row text-center">
           <div className="mx-auto lg:col-10">
             <h1 className="font-primary font-bold">{banner.title}</h1>
+            <Link
+              className="w-[40%] btn btn-primary z-0 py-[14px] my-5"
+              href="/contact"
+              rel=""
+            >
+              Начать
+            </Link>
             <p className="mt-4">{markdownify(banner.content)}</p>
             {banner.button.enable && (
               <Link
